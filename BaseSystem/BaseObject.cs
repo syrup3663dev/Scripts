@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseObject : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class BaseObject : MonoBehaviour {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int hp = 1;
+    public int life = 1;
+    public int point = 0;
+
 }
