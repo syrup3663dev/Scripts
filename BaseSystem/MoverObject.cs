@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class MoverObject : BaseObject {
 
-    protected Rigidbody rb;
+    public Rigidbody rb;
     
     public float speed;
     public float angle;
